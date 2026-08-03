@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryvi | Portfolio</title>
+    <meta name="description" content="Ryvi's Portfolio">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="assets/pfp.png" alt="Ryvi" class="avatar" onerror="this.src='https://placehold.co/100/1a1a1a/ffb6c1?text=R'">
+            <div class="brand-text">
+                <span class="name">Ryvi</span>
+                <span class="subtext">PORTFOLIO</span>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#what-i-do">What I Do</a>
+            <a href="#portfolio">My Work</a>
+            <a href="#socials">Socials</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="label">HELLO THERE!</div>
+                <h1>Hey, I'm Ryvi.</h1>
+                <p>I Enjoy Making Skins and textures, im currently learning how to code it a few diffrent languages, i have a good understanding of the minecraft algorithm, i love when people make art of my minecraft skin!</p>
+                
+                <div class="buttons">
+                    <a href="#what-i-do" class="btn btn-primary">See What I Do</a>
+                    <a href="#portfolio" class="btn btn-secondary">My Work</a>
+                </div>
+            </div>
+
+            <div class="hero-graphics">
+                <img src="assets/pfp.png" alt="Profile Picture" class="hero-pfp" onerror="this.src='https://placehold.co/400/1a1a1a/ffb6c1?text=Your+PFP'">
+            </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section id="what-i-do" class="section">
+            <div class="section-header">
+                <h2>What I Do</h2>
+                <p>My current focus and past experiences.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="status-badge">Current</span>
+                    <h3>Skin Creator</h3>
+                    <p>I design and create Minecraft skins.</p>
+                </div>
+                <div class="service-card">
+                    <span class="status-badge learning">Learning</span>
+                    <h3>SMP Content</h3>
+                    <p>Making scripted and minecraft SMP videos. This is my main focus right now, guys will see a video from me soon hopefully.</p>
+                </div>
+                <div class="service-card">
+                    <span class="status-badge learning">Learning</span>
+                    <h3>Production Manager</h3>
+                    <p>I manage productions and know a lot about how youtube algorithms work. I've been helping my friends with their youtube channels and it's going well.</p>
+                </div>
+                <div class="service-card">
+                    <span class="status-badge learning">Learning</span>
+                    <h3>Animator</h3>
+                    <p>I animate stuff using Mineimator and a little bit of Blender.</p>
+                </div>
+                <div class="service-card retired">
+                    <span class="status-badge inactive">Retired</span>
+                    <h3>Texture / Model Maker</h3>
+                    <p>I used to make Minecraft textures and models.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="section-header">
+                <h2>My Work</h2>
+                <p>A showcase of my Minecraft skins.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="assets/skin1.png" alt="Skin 1" onerror="this.style.display='none'">
+                    <span class="placeholder-text">Skin 1</span>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/skin2.png" alt="Skin 2" onerror="this.style.display='none'">
+                    <span class="placeholder-text">Skin 2</span>
+                </div>
+                <div class="portfolio-item">
+                    <img src="assets/skin3.png" alt="Skin 3" onerror="this.style.display='none'">
+                    <span class="placeholder-text">Skin 3</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section">
+            <div class="section-header">
+                <h2>Pricing</h2>
+                <p>Commission me for mc skins.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Redesign</h3>
+                    <div class="price">$2</div>
+                    <p>Redesign of an existing Minecraft skin.</p>
+                    <a href="https://discord.gg/GeB87TfdvB" target="_blank" class="btn btn-primary discord-buy-btn">Order via Discord</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>New Skin</h3>
+                    <div class="price">$5</div>
+                    <p>A new Minecraft skin, no nsfw skins.</p>
+                    <a href="https://discord.gg/GeB87TfdvB" target="_blank" class="btn btn-primary discord-buy-btn">Order via Discord</a>
+                </div>
+            </div>
+            <div class="pricing-note">
+                <p><em>* Anything overly complicated will have money added on.</em></p>
+            </div>
+        </section>
+
+        <!-- Socials Section -->
+        <section id="socials" class="section socials-section">
+            <div class="section-header">
+                <h2>Connect With Me</h2>
+            </div>
+            <div class="social-links-container">
+                <a href="https://www.youtube.com/@3Ryvi" target="_blank" class="social-btn">YouTube</a>
+                <a href="https://x.com/3Ryvi" target="_blank" class="social-btn">Twitter</a>
+                <a href="#" class="social-btn">Twitch</a>
+                <a href="https://discord.gg/GeB87TfdvB" target="_blank" class="social-btn">Discord</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
